@@ -1,0 +1,33 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status == \"Scheduled\"",
+ "creation": "2023-11-04 17:13:30.182151",
+ "date_changed": "modified",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Airplane Flight",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "modified": "2023-11-04 17:13:30.182151",
+ "modified_by": "Administrator",
+ "module": "airplane_mode",
+ "name": "new_notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "",
+ "sender_email": "",
+ "set_property_after_alert": "",
+ "subject": "Departs in 24 hours!"
+}
